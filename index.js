@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-const program=require('commander')
-const helpOptions=require('./lib/core/help')
+const program = require('commander')
+const helpOptions = require('./lib/core/help')
 const { version } = require("./lib/config/constants")
 
-const commands=require('./lib/core/commands')
+const commands = require('./lib/core/commands')
 
-program.version(version,'-v,--version') //设置版本命令
+program.version(version, '-v,--version') //设置版本命令
 
 helpOptions() // 设置help命令
 commands()
