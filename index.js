@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const program = require('commander')
 const helpOptions = require('./lib/core/help')
 const { version } = require("./lib/config/constants")
