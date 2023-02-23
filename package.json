@@ -1,7 +1,7 @@
 {
   "name": "peng-cli",
-  "version": "1.0.0",
-  "description": "自建脚手架cli",
+  "version": "1.0.1",
+  "description": "脚手架工具Cli",
   "main": "index.js",
   "directories": {
     "lib": "lib"
